@@ -4,11 +4,11 @@ html, body {
 }
 
 
-@keyframes bounce{
+@keyframes move{
     from{left:120%;}
     to{left:-20%;bottom: 50%;rotate: 400deg;scale: 0.3;}
 }
-.ball{
+.shape{
     perspective:100px;
     background-color: #f00;
     width: 100px;
@@ -18,5 +18,5 @@ html, body {
     left:130%;
     translate:-50% 0%;
     z-index: 1;
-    animation: bounce 4s ease infinite;
+    animation: move 4s ease infinite;
 }
